@@ -14,7 +14,7 @@
 							</headerToolbar>
 							<columns>
 								<Column width="12em">
-									<Text text="Product ID"/>
+									<Text text="Product"/>
 								</Column>
 								<Column minScreenWidth="Tablet" demandPopin="true">
 									<Text text="Category"/>
@@ -35,7 +35,7 @@
 							<items>
 								<ColumnListItem>
 									<cells>
-										<ObjectIdentifier title="{Name}" text="{productsModel>ProductId}"/>
+										<ObjectIdentifier title="{productsModel>Name}" text="{productsModel>ProductId}"/>
 										<Text text="{productsModel>Category}"/>
 										<Text text="{productsModel>Width} x {productsModel>Depth} x {productsModel>Height} {productsModel>DimUnit}"/>
 										<ObjectNumber
