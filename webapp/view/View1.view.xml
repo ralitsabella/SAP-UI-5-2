@@ -9,7 +9,7 @@
 								<Toolbar>
 									<Title text="Search by Category:"/>
 									<ToolbarSpacer/>
-									<SearchField width="50%" search=".onFilterProducts"/>
+									<SearchField width="40%" search=".onFilterProducts"/>
 								</Toolbar>
 							</headerToolbar>
 							<columns>
